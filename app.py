@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 # model = pickle.load(open('PycharmProjects/app/test_save.pkl', 'rb'))
 # model = DecisionTreeClassifier(random_state=34)
-model = joblib.load('PycharmProjects/app/test_save.pkl')
+model = joblib.load('test_save.pkl')
 
 app = Flask(__name__)
 
